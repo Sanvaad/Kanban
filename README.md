@@ -56,15 +56,9 @@ The app allows users to:
 
 ---
 
-### Screenshots  
-
-![Kanban Task Manager Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)  
-
----
-
 ### Project Links  
 
-- **Live Demo**: [Kanban Task Manager](https://kanban-task-management-react-tailwind.vercel.app/)  
+- **Live Demo**: https://sankanban.netlify.app/ 
 
 ---
 
