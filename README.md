@@ -1,70 +1,85 @@
-# Frontend Mentor - Kanban task management web app solution
+# Kanban Task Manager - A Frontend Mentor Challenge Solution  
 
-- [this project YouTube video Tutorial](https://www.youtube.com/watch?v=3RWMktZNsJQ&t=1707s)
+This is my  solution for the [Kanban Task Management App Challenge on Frontend Mentor]
 
-This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+---
 
-## Table of contents
+## Table of Contents  
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Overview](#overview)  
+  - [Challenge Details](#challenge-details)  
+  - [Key Features](#key-features)  
+  - [Screenshots](#screenshots)  
+  - [Project Links](#project-links)  
+  - [Tech Stack](#tech-stack)  
+  - [Additional Resources](#additional-resources)  
+- [Creator](#creator)  
 
-## Overview
+---
 
-### The challenge
+## Overview  
 
-Users should be able to:
+### Challenge Details  
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Create, read, update, and delete boards and tasks
-- Receive form validations when trying to create/edit boards and tasks
-- Mark subtasks as complete and move tasks between columns
-- Hide/show the board sidebar
+The goal was to develop a fully functional Kanban task management app that provides a seamless user experience across devices.  
 
-Expected Behaviour:
+### Key Features  
 
-- Boards
-  - Clicking different boards in the sidebar will change to the selected board.
-  - Clicking "Create New Board" in the sidebar opens the "Add New Board" modal.
-  - Clicking in the dropdown menu "Edit Board" opens up the "Edit Board" modal where details can be changed.
-  - Columns are added and removed for the Add/Edit Board modals.
-  - Deleting a board deletes all columns and tasks and requires confirmation.
-- Columns
-  - A board needs at least one column before tasks can be added. If no columns exist, the "Add New Task" button in the header is disabled.
-  - Clicking "Add New Column" opens the "Edit Board" modal where columns are added.
-- Tasks
-  - Adding a new task adds it to the bottom of the relevant column.
-  - Updating a task's status will move the task to the relevant column.
+The app allows users to:  
+- Experience an intuitive layout optimized for all screen sizes.  
+- Interact with hover states for actionable UI elements.  
+- Create, read, update, and delete boards and tasks.  
+- Receive real-time form validation during board/task creation or edits.  
+- Mark subtasks as complete and shift tasks between columns.  
+- Toggle the visibility of the board sidebar.  
 
-Bonus:
+#### Detailed Behaviors  
 
-- The tasks can be dragged and dropped to a new column.
+- **Boards**:  
+  - Switching boards updates the view dynamically.  
+  - The "Create New Board" button opens a modal for adding a board.  
+  - An "Edit Board" option in the dropdown allows board modification.  
+  - Users can add or remove columns within the Add/Edit Board modal.  
+  - A board deletion requires confirmation and clears all related columns and tasks.  
 
-### Screenshot
+- **Columns**:  
+  - At least one column must exist before tasks can be added.  
+  - If no columns exist, the "Add New Task" button is disabled.  
+  - New columns are added via the "Edit Board" modal.  
 
-![Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)
+- **Tasks**:  
+  - Newly created tasks appear at the end of the relevant column.  
+  - Task status updates automatically move the task to the correct column.  
 
-### Links
+**Bonus Feature**:  
+- Drag-and-drop functionality for tasks within columns.  
 
-- Live Site URL: [link](https://kanban-task-management-react-tailwind.vercel.app/)
+---
 
-### Built with
+### Screenshots  
 
-- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
-- Drag and Drop API
-- [React](https://reactjs.org/) - JS library
-- [Redux](https://redux.js.org/) - State management tool
+![Kanban Task Manager Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)  
 
-### Useful resources
+---
 
-- [Drag and Drop quick tutorial](https://www.youtube.com/watch?v=u65Y-vqYNAk)
+### Project Links  
 
-## Author
+- **Live Demo**: [Kanban Task Manager](https://kanban-task-management-react-tailwind.vercel.app/)  
 
-- LinkedIn - [Hesam DearBoy](https://www.linkedin.com/in/hesam-azizpour-23259b265/)
+---
+
+### Tech Stack  
+
+This project was built using:  
+- [React](https://reactjs.org/) - A powerful JavaScript library for UI development  
+- [Redux](https://redux.js.org/) - For state management  
+- [TailwindCSS](https://tailwindcss.com/) - For rapid styling  
+- Drag-and-Drop API - For an interactive task management experience  
+
+---
+
+## Creator  
+
+- **LinkedIn Profile**: Sanvaad Shende (https://www.linkedin.com/in/sanvaad/)  
+
+---
